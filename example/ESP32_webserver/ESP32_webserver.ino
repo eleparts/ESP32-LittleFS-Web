@@ -17,7 +17,7 @@
 #include <LittleFS.h>
 
 /* 사용할 WIFI 접속 정보 입력 */
-const char *ssid = "WIFI_SSID"; 
+const char *ssid     = "WIFI_SSID"; 
 const char *password = "WIFI_PASSWORD";
 
 AsyncWebServer server(80);
