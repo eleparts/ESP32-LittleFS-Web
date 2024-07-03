@@ -16,7 +16,7 @@
 #include <ESPAsyncWebServer.h>
 #include <LittleFS.h>
 
-/* 사용할 WIFI 접속 정보 입력 */
+/* 사용할 Wi-Fi 접속 정보 입력 */
 const char *ssid     = "WIFI_SSID"; 
 const char *password = "WIFI_PASSWORD";
 
@@ -37,7 +37,7 @@ void initLittleFS() {
 void initWiFi() {
   
   WiFi.begin(ssid, password);
-  Serial.print("Connecting to WiFi..");
+  Serial.print("Connecting to Wi-Fi..");
 
   while (WiFi.status() != WL_CONNECTED) {
     Serial.print(".");
