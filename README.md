@@ -33,3 +33,7 @@ ESP32 모듈로 간단한 웹 서버 구축 예제
 ESP32 모듈 및 AM2301B 온습도 센서로 온습도 측정 결과를 웹으로 출력 ([DFRobot_AHT20](https://github.com/DFRobot/DFRobot_AHT20) 라이브러리 사용)  
 
 > [ESP32 웹 서버에 온습도 센서 측정 결과 출력하기](https://blog.naver.com/elepartsblog/223517972648)  
+
+### EESP32_web_LED_Template  
+
+ESP32 모듈에 내장된 LED를 웹페이지 버튼(특정 페이지 접속)으로 ON/OFF 제어 및 템플릿 기능(플레이스 홀더로 지정된 문자열 변환)으로 출력 화면 변경 예제  
